@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry People</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/normolize.css">
+
+    <!-- Swiperjs.css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- GLightBox.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <!-- Flatpickr.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Include Choices CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="content header-content">
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Home</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">About</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Team</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Booking</a>
+                        </li>
+                    </ul>
+                    <img src="./assets/img/header-logo.svg" alt="Header Logo" class="header-nav__logo">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Menu</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Galleria</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Events</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-middle">
+                    <div class="header-middle-time">Mon - Fri: 8PM - 10PM,<br> Sat - Sun: 8PM - 3AM</div>
+                    <div class="header-middle-content">
+                        <span class="header-middle-smalltitle">RESTAURANT</span>
+                        <h1 class="header-middle-title">Hungry People</h1>
+                        <div class="header-middle-buttons">
+                            <a href="#" class="button header-middle__book">Book Table</a>
+                            <a href="#" class="button header-middle__explore">Explore</a>
+                        </div>
+                    </div>
+                    <div class="header-middle-socials">
+                        <a href="#" class="header-middle-social">
+                            <box-icon name='facebook' type='logo' color='#ffffff' ></box-icon>
+                        </a>
+                        <a href="#" class="header-middle-social">
+                            <box-icon name='twitter' type='logo' color='#ffffff' ></box-icon>
+                        </a>
+                        <a href="#" class="header-middle-social">
+                            <box-icon name='instagram' type='logo' color='#ffffff' ></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- / Header -->
+
+
+        <!-- Section About -->
+        <section class="about">
+            <div class="content section-content">
+                <div class="section-content-information">
+                    <h2 class="section-title">About Us</h2>
+                    <span class="section-text section-text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                    <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                </div>
+                <div class="section-content-media">
+                    <div class="section-content-media-image">
+                        <img src="./assets/img/about-img.jpg" class="section-content-media-image__img" alt="About image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / Section About -->
+
+        
+        <!-- Section Our Team -->
+        <section class="our-team">
+            <div class="content section-content">
+                <div class="section-content-media section-content-media_align-left">
+                    <div class="section-content-media-image section-content-media-image_align-left">
+                        <img src="./assets/img/team-img.jpg" class="section-content-media-image_img" alt="Our team">
+                    </div>
+                </div>
+                <div class="section-content-information">
+                    <h2 class="section-title">Master Chef</h2>
+                    <span class="section-text section-text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                    <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                </div>
+            </div>
+        </section>
+        <!-- / Section Our Team -->
+
+
+        <!-- Section Book -->
+        <section class="book">
+            <div class="content section-content">
+                <div class="section-content-information">
+                    <h2 class="section-title">Book a table</h2>
+                    <form class="book-order">
+                        <input type="text" name="name" placeholder="Name" class="input-text">
+                        <input type="text" name="email" placeholder="Email" class="input-text">
+                        <input type="tel" name="phone" placeholder="Phone" class="input-text input-phone">
+                        <select class="select" name="people">
+                            <option value="">People</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <input type="text" name="data" placeholder="Date (mm/dd)" id="date" class="input-text">
+                        <input type="text" name="time" placeholder="Time" id="time" class="input-text">
+                        <button class="button book-order__button">Book Now</button>
+                    </form>
+                </div>
+                <div class="section-content-media">
+                    <div class="section-content-media-image">
+                        <img src="./assets/img/book-img.jpg" class="section-content-media-image__img" alt="Book image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  /Section Book -->
+
+
+        <!-- Section Products -->
+        <section class="products">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="content section-content">
+                            <div class="section-content-media section-content-media_align-left">
+                                <div class="section-content-media-image section-content-media-image_align-left">
+                                    <img src="./assets/img/products-img.jpg" class="section-content-media-image__img" alt="Our team">
+                                </div>
+                            </div>
+                            <div class="section-content-information">
+                                <h2 class="section-title">chocolate pancakes</h2>
+                                <span class="section-text section-text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                                <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content section-content">
+                            <div class="section-content-media section-content-media_align-left">
+                                <div class="section-content-media-image section-content-media-image_align-left">
+                                    <img src="./assets/img/products2.jpg" class="section-content-media-image__img" alt="Our team">
+                                </div>
+                            </div>
+                            <div class="section-content-information">
+                                <h2 class="section-title">Burger</h2>
+                                <span class="section-text section-text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                                <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                                <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content section-content">
+                            <div class="section-content-media section-content-media_align-left">
+                                <div class="section-content-media-image section-content-media-image_align-left">
+                                    <img src="./assets/img/products3.jpg" class="section-content-media-image__img" alt="Our team">
+                                </div>
+                            </div>
+                            <div class="section-content-information">
+                                <h2 class="section-title">Steak</h2>
+                                <span class="section-text section-text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                                <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                                <span class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <!-- / Section Products -->
+
+
+        <!-- Section Menu -->
+        <section class="menu">
+            <div class="content">
+                <h2 class="section-title">DELICIOUS MENU</h2>
+                <span class="menu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna</span>
+                <div>
+                    <ul class="menu-tabs" id="menu-tabs">
+                        <li class="tab-name menu-tabs-name active" data-menu-tabs-name="pasta">Pasta</li>
+                        <li class="tab-name menu-tabs-name" data-menu-tabs-name="desert">Desert</li>
+                        <li class="tab-name menu-tabs-name" data-menu-tabs-name="wine">Wine</li>
+                    </ul>
+                    <div class="menu-content">
+                        <div class="tab-content menu-content-tab active" data-menu-tabs-tab="pasta">
+                            <div class="menu-list">
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content menu-content-tab" data-menu-tabs-tab="desert">
+                            <div class="menu-list">
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">65,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content menu-content-tab" data-menu-tabs-tab="wine">
+                            <div class="menu-list">
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                                <div class="menu-list-column">
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                    <div class="menu-list-element">
+                                        <div class="menu-list-element-text">
+                                            <span class="menu-list-element__name">PIZZA QUATRO STAGIONI</span>
+                                            <span class="menu-list-element__description">Integer ullamcorper neque eu purus euismod</span>
+                                        </div>
+                                        <div class="menu-list-element-price">55,68 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / Section Menu -->
+
+
+        <!-- Section  Events-->
+        <section class="events">
+            <div class="content section-content">
+                <div class="section-content-media section-content-media_align-left">
+                    <div class="section-content-media-image section-content-media-image_align-left">
+                        <img src="./assets/img/event-wedding.jpg" class="section-content-media-image__img" alt="Events">
+                        <span class="event-element__name top">Weddings</span>
+                    </div>
+                </div>
+                <div class="section-content-media section-content-media_align-right">
+                    <div class="section-content-media-image section-content-media-image_align-right">
+                        <img src="./assets/img/event-corporate.jpg" class="section-content-media-image__img" alt="Events">
+                        <span class="event-element__name bottom">Corporates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / Section  Events-->
+
+
+        <!-- Section Gallery -->
+        <section class="gallery">
+            <a href="./assets/img/gallery1.jpg" class="gallery-image" style="background-image: url(./assets/img/gallery1.jpg);"></a>
+            <a href="./assets/img/gallery2.jpg" class="gallery-image" style="background-image: url(./assets/img/gallery2.jpg);"></a>
+            <a href="./assets/img/gallery3.jpg" class="gallery-image" style="background-image: url(./assets/img/gallery3.jpg);"></a>
+            <a href="./assets/img/gallery4.jpg" class="gallery-image" style="background-image: url(./assets/img/gallery4.jpg);"></a>
+        </section>
+        <!-- / Section Gallery -->
+
+
+        <!-- Section Contact -->
+        <section class="contact">
+            <div class="content">
+                <h2 class="section-title">Contact</h2>
+                <span class="contact-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span>
+                <form action="POST" class="contact-form">
+                    <div class="contact-form-contacts">
+                        <input type="text" name="name" placeholder="Name" class="input-text contact-form-contacts__input">
+                        <input type="email" name="email" placeholder="Email" class="input-text contact-form-contacts__input">
+                        <input type="tel" name="phone" placeholder="Phone" class="input-text contact-form-contacts__input input-phone">
+                    </div>
+                    <textarea name="message" class="input-textarea contact-form__message" placeholder="Message"></textarea>
+                    <button class="button contact-form-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <!-- / Section Contact -->
+
+
+        <!-- Section Map -->
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93561.92088059727!2d74.52182072918642!3d42.87685370389101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dc91b3c881%3A0x492ebaf57cdee27d!2z0JHQuNGI0LrQtdC6!5e0!3m2!1sru!2skg!4v1657223637512!5m2!1sru!2skg" width="100%" height="475" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- / Section Map -->
+
+
+        <!-- Footer -->
+        <footer class="footer">© Copyright <b>Mindblister</b> 2022</footer>
+        <!-- / Footer -->
+
+    </div>
+
+
+    
+    <!-- GLightBox.js -->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    
+    <!-- Include Choices JavaScript (latest) -->
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    
+    <!-- Flatpickr.js -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    
+    <!-- Imask.js -->
+    <script src="https://unpkg.com/imask"></script>
+    
+    <!-- Swiper.js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Boxicons.js -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
+
